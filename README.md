@@ -25,3 +25,8 @@ A Simple Desktop GUI Application written in Python which uses Linear Regression 
 3. Run the Application.
    ```
    python app_tkinter.py
+
+## Screenshots:
+<img width="620" height="724" alt="Screenshot 2025-12-16 212215" src="https://github.com/user-attachments/assets/882038ab-c8f5-4a6b-8f48-cf8841944064" />
+
+
