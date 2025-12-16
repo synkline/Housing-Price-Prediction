@@ -1,4 +1,4 @@
-# --- app_tkinter.py (FINAL & COMPLETE) ---
+#  user interface kinda  
 
 import tkinter as tk
 from tkinter import messagebox, ttk
@@ -179,5 +179,6 @@ def predict_price():
 tk.Button(root, text="Predict Price", command=predict_price, bg="#4CAF50", fg="white", width=20).pack(pady=10)
 result_label = tk.Label(root, text="", font=("Arial", 12, "bold"))
 result_label.pack(pady=10)
+
 
 root.mainloop()
