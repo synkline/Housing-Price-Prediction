@@ -1,4 +1,4 @@
-
+# main script
 import os
 import pandas as pd
 import numpy as np 
@@ -108,5 +108,6 @@ joblib.dump(lr_model, 'models/linear_model.joblib')
 joblib.dump(rf_model, 'models/random_forest_model.joblib')
 joblib.dump(X.columns.tolist(), 'models/model_features.pkl')
 joblib.dump(location_encoder, 'models/location_encoder.joblib') # CRITICAL: Saved for Tkinter App
+
 
 print("\n✅ Models, feature list, and encoder saved successfully!") 
